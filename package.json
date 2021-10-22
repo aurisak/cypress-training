@@ -1,0 +1,26 @@
+{
+  "name": "cypress-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aurisak/cypress-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aurisak/cypress-training/issues"
+  },
+  "homepage": "https://github.com/aurisak/cypress-training#readme",
+  "devDependencies": {
+    "cypress": "^8.6.0"
+  }
+
+}
