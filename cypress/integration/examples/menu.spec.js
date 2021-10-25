@@ -13,6 +13,6 @@ describe('menu tests', () => {
         cy.get('#QuickLinks a').last().click()
         cy.contains('h2', 'Birds')
         cy.get('#BackLink').click()
-        cy.get('#SidebarContent').should('be.visible')
+        cy.get('#SidebarContent').should()
     })
 })
