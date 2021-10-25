@@ -19,7 +19,7 @@ describe('order test', () => {
           })
     })
 
-    it('add item and check the summary', () => {
+    it('increase amount of items and check the summary', () => {
         cy.get('table')
           .within(() => {
               cy.get('input[name="EST-14"]').clear().type('2')
