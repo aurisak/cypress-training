@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "scripts": {
     "cypress:open": "cypress open"
   },
   "repository": {
@@ -20,7 +17,7 @@
   },
   "homepage": "https://github.com/aurisak/cypress-training#readme",
   "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.0.0",
     "cypress": "^8.6.0"
   }
-
 }
