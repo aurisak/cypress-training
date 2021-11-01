@@ -18,6 +18,8 @@
   "homepage": "https://github.com/aurisak/cypress-training#readme",
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.0.0",
-    "cypress": "^8.6.0"
+    "cypress": "^8.6.0",
+    "cypress-downloadfile": "^1.2.1",
+    "cypress-file-upload": "^5.0.8"
   }
 }
