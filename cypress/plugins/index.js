@@ -25,3 +25,24 @@ const {downloadFile} = require('cypress-downloadfile/lib/addPlugin')
 module.exports = (on, config) => {
   on('task', {downloadFile})
 }
+
+const faker = require("faker");
+
+/**
+ * @type {Cypress.PluginConfig}
+ */
+
+module.exports = (on, config) => {
+  on("task", {
+    newUser() {
+      user = {
+        nome: faker.name.firstName(),
+        email: faker.internet.email(),
+        password: faker.internet.password(),
+        administrador: "true"
+      };
+      return user;
+    }
+  })
+  return config
+}
